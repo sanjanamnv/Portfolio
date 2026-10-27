@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shopBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#DDD6FE"/>
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+    <filter id="shopShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4C1D95" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" fill="url(#shopBg)"/>
+  
+  <circle cx="500" cy="80" r="110" fill="#7C3AED" opacity="0.08"/>
+  <circle cx="90" cy="290" r="90" fill="#A78BFA" opacity="0.1"/>
+  <circle cx="110" cy="70" r="14" fill="#C4B5FD" opacity="0.4"/>
+
+  <!-- Main ShopNest Mockup Card -->
+  <g filter="url(#shopShadow)">
+    <rect x="90" y="45" width="420" height="270" rx="16" fill="#FFFFFF" stroke="#C4B5FD" stroke-width="1.5"/>
+
+    <!-- App Header -->
+    <rect x="90" y="45" width="420" height="52" rx="16" fill="#FAF5FF"/>
+    <rect x="114" y="58" width="26" height="26" rx="6" fill="#7C3AED"/>
+    <!-- Bag symbol -->
+    <path d="M123 66 L131 66 L133 76 L121 76 Z" fill="#FFFFFF"/>
+    <path d="M125 66 Q127 62 129 66" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+    <text x="148" y="75" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#2E1065">ShopNest</text>
+
+    <!-- Category tags -->
+    <text x="250" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#7C3AED">Electronics</text>
+    <text x="320" y="75" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">Apparel</text>
+    <text x="380" y="75" font-family="system-ui, sans-serif" font-size="11" fill="#6B7280">Books</text>
+
+    <!-- Search / Cart -->
+    <circle cx="465" cy="71" r="14" fill="#EDE9FE"/>
+    <path d="M459 66 L462 66 L465 74 L471 74 L473 69 L463 69" stroke="#7C3AED" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Left Column: Product Showcase -->
+    <g transform="translate(115, 115)">
+      <rect width="180" height="175" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <!-- Product image placeholder box -->
+      <rect x="20" y="16" width="140" height="85" rx="8" fill="#EDE9FE"/>
+      <!-- Modern headphone illustration -->
+      <path d="M60 62 C60 40 120 40 120 62" stroke="#7C3AED" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <rect x="54" y="58" width="12" height="22" rx="4" fill="#6D28D9"/>
+      <rect x="114" y="58" width="12" height="22" rx="4" fill="#6D28D9"/>
+      
+      <text x="20" y="122" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1E293B">Aura Sound ANC</text>
+      <text x="20" y="138" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Spatial Wireless Audio</text>
+      <text x="20" y="164" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#7C3AED">$89.00</text>
+      <!-- Add button -->
+      <rect x="125" y="145" width="35" height="24" rx="6" fill="#7C3AED"/>
+      <text x="142" y="161" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">+</text>
+    </g>
+
+    <!-- Right Column: Shopping Cart Preview -->
+    <g transform="translate(315, 115)">
+      <rect width="175" height="175" rx="12" fill="#FAF5FF" stroke="#F3E8FF" stroke-width="1"/>
+      <text x="16" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#581C87">Bag Summary (2)</text>
+      
+      <rect x="16" y="40" width="143" height="34" rx="6" fill="#FFFFFF" stroke="#E9D5FF" stroke-width="1"/>
+      <rect x="22" y="46" width="22" height="22" rx="4" fill="#EDE9FE"/>
+      <text x="50" y="58" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#1E293B">Sound ANC</text>
+      <text x="50" y="69" font-family="system-ui, sans-serif" font-size="9" fill="#7C3AED">$89.00</text>
+      
+      <rect x="16" y="80" width="143" height="34" rx="6" fill="#FFFFFF" stroke="#E9D5FF" stroke-width="1"/>
+      <rect x="22" y="86" width="22" height="22" rx="4" fill="#FEF3C7"/>
+      <text x="50" y="98" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#1E293B">USB-C Hub</text>
+      <text x="50" y="109" font-family="system-ui, sans-serif" font-size="9" fill="#7C3AED">$24.00</text>
+
+      <line x1="16" y1="126" x2="159" y2="126" stroke="#E9D5FF" stroke-width="1"/>
+      <text x="16" y="142" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1E293B">Total: $113.00</text>
+      
+      <!-- Checkout button -->
+      <rect x="16" y="150" width="143" height="20" rx="4" fill="#7C3AED"/>
+      <text x="87" y="164" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">Smooth Checkout →</text>
+    </g>
+  </g>
+</svg>

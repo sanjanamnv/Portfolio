@@ -1,0 +1,97 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 612 792]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 748
+>>
+stream
+BT
+/F2 20 Tf
+50 720 Td
+(Sri Lakshmi Sanjana M N V - Resume Placeholder) Tj
+0 -30 Td
+/F1 12 Tf
+(Integrated M.Tech in Computer Science & Engineering | 3rd Year) Tj
+0 -18 Td
+(VIT-AP University) Tj
+0 -35 Td
+/F2 14 Tf
+(Career Objective:) Tj
+0 -20 Td
+/F1 11 Tf
+(To become a skilled software engineer and build useful, innovative technology solutions.) Tj
+0 -40 Td
+/F2 14 Tf
+(INSTRUCTIONS TO REPLACE THIS FILE:) Tj
+0 -20 Td
+/F1 11 Tf
+(1. Export your authentic curriculum vitae or resume as a PDF file.) Tj
+0 -18 Td
+(2. Name the file: resume.pdf) Tj
+0 -18 Td
+(3. Place it in the assets/ folder of this portfolio project, replacing this placeholder file.) Tj
+0 -18 Td
+(4. The 'Download Resume' button on your portfolio website will immediately serve your real resume.) Tj
+0 -40 Td
+/F1 10 Tf
+(Technical Skills Learned: Java, Python, HTML, CSS, JavaScript, Bootstrap, Angular, React, MongoDB, SQL, Git) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000001065 00000 n 
+0000001140 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+1220
+%%EOF

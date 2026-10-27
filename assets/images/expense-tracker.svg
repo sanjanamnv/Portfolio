@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="expBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1F2"/>
+      <stop offset="100%" stop-color="#FFE4E6"/>
+    </linearGradient>
+    <filter id="expShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#881337" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" fill="url(#expBg)"/>
+  <circle cx="510" cy="80" r="110" fill="#F43F5E" opacity="0.08"/>
+  <circle cx="80" cy="280" r="90" fill="#E11D48" opacity="0.08"/>
+
+  <!-- Main Analytics Card -->
+  <g filter="url(#expShadow)">
+    <rect x="90" y="45" width="420" height="270" rx="16" fill="#FFFFFF" stroke="#FECDD3" stroke-width="1.5"/>
+
+    <!-- App Header -->
+    <rect x="90" y="45" width="420" height="48" rx="16" fill="#FFF1F2"/>
+    <rect x="110" y="57" width="24" height="24" rx="6" fill="#E11D48"/>
+    <!-- Wallet / Graph glyph -->
+    <path d="M116 66 L128 66 L128 73 L116 73 Z" fill="#FFFFFF"/>
+    <circle cx="125" cy="69.5" r="1.5" fill="#E11D48"/>
+    <text x="144" y="73" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#881337">Personal Expense Tracker</text>
+
+    <!-- Month dropdown simulation -->
+    <rect x="390" y="58" width="100" height="22" rx="6" fill="#FFFFFF" stroke="#FDA4AF" stroke-width="1"/>
+    <text x="405" y="73" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#9F1239">October 2026 ▾</text>
+
+    <!-- Left: Balance & Categories -->
+    <g transform="translate(115, 110)">
+      <rect width="180" height="185" rx="10" fill="#FAFAF9" stroke="#E7E5E4" stroke-width="1"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#78716C">CURRENT MONTH SPENT</text>
+      <text x="16" y="50" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#E11D48">₹ 4,350</text>
+      <text x="16" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#059669">↓ 12% lower than budget</text>
+
+      <!-- Category progress items -->
+      <text x="16" y="96" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#44403C">Food &amp; Dining (₹2,100)</text>
+      <rect x="16" y="102" width="148" height="6" rx="3" fill="#E7E5E4"/>
+      <rect x="16" y="102" width="95" height="6" rx="3" fill="#F43F5E"/>
+
+      <text x="16" y="126" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#44403C">Books &amp; Supplies (₹1,250)</text>
+      <rect x="16" y="132" width="148" height="6" rx="3" fill="#E7E5E4"/>
+      <rect x="16" y="132" width="60" height="6" rx="3" fill="#8B5CF6"/>
+
+      <text x="16" y="156" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#44403C">Travel &amp; Metro (₹1,000)</text>
+      <rect x="16" y="162" width="148" height="6" rx="3" fill="#E7E5E4"/>
+      <rect x="16" y="162" width="45" height="6" rx="3" fill="#3B82F6"/>
+    </g>
+
+    <!-- Right: Donut Chart & Breakdown -->
+    <g transform="translate(315, 110)">
+      <rect width="175" height="185" rx="10" fill="#FFF1F2" stroke="#FFE4E6" stroke-width="1"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#9F1239">Budget Health</text>
+      
+      <!-- Donut Chart -->
+      <circle cx="87" cy="85" r="45" fill="none" stroke="#E2E8F0" stroke-width="16"/>
+      <circle cx="87" cy="85" r="45" fill="none" stroke="#F43F5E" stroke-width="16" stroke-dasharray="140 280" stroke-dashoffset="0"/>
+      <circle cx="87" cy="85" r="45" fill="none" stroke="#8B5CF6" stroke-width="16" stroke-dasharray="80 280" stroke-dashoffset="-140"/>
+      <circle cx="87" cy="85" r="45" fill="none" stroke="#3B82F6" stroke-width="16" stroke-dasharray="60 280" stroke-dashoffset="-220"/>
+      <text x="87" y="89" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#881337" text-anchor="middle">₹ 10K</text>
+      <text x="87" y="100" font-family="system-ui, sans-serif" font-size="8" fill="#9F1239" text-anchor="middle">Budget</text>
+
+      <!-- Savings Status -->
+      <rect x="14" y="145" width="147" height="26" rx="6" fill="#FFFFFF" stroke="#FECDD3" stroke-width="1"/>
+      <text x="87" y="162" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#059669" text-anchor="middle">✓ ₹5,650 Savings Remaining</text>
+    </g>
+  </g>
+</svg>
